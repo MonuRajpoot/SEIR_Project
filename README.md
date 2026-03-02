@@ -1,4 +1,4 @@
-# Search_Engine_Project
+# SEIR_Project
 
 ## Project Description – Web Page Similarity Checker using SimHash
  
