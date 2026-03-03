@@ -29,3 +29,4 @@ for tag in soup.find_all("a"):
     link = tag.get("href")
     if link:
         print(urljoin(url, link))
+
