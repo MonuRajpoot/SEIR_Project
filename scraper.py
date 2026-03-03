@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 if len(sys.argv) != 2:
-    print("Enter Your URL: python seir_project1.py <URL>")
+    print("Enter Your URL: python scraper.py <URL>")
     sys.exit()
 
 url = sys.argv[1]
@@ -29,4 +29,5 @@ for tag in soup.find_all("a"):
     link = tag.get("href")
     if link:
         print(urljoin(url, link))
+
 
